@@ -1,0 +1,19 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    font-size: 16px;
+    @extend %exo5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    flex-grow: 1;
+}
+.container{
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

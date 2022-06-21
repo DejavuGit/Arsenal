@@ -1,0 +1,407 @@
+@media (max-width: 1440px){
+ .catalog__item-6{
+     margin-top: -50px;
+ }
+ .catalog__item-3{
+
+     justify-self: center;
+     align-self: center;
+    .catalog__content{
+        // max-width: 170px;
+        left: 0px;
+        text-align: center;
+        top: -70%;
+
+    }
+ }
+}
+
+@media (max-width: 1240px){
+ .slider-top__title{
+  font-size: 36px;
+  line-height: 48px;
+ }
+ .slider-top__text{
+  font-size: 16px;
+ }
+
+ .catalog__wrap{
+    grid-template-columns: repeat(2, 1fr);
+}
+.catalog__item-2 img{margin: 0 auto;}
+.catalog__item-3{
+    grid-row:1;
+    grid-column: 1/2;
+    justify-self:center;
+
+    padding-top: 70px;
+    .catalog__content{
+    //   right: 50%;
+        top: -30%;
+        left: 20% ;
+    }
+    .catalog__subtitle{
+        width: 300px;
+       
+
+    }
+}
+.catalog__item-4{
+    align-self: center;
+    .catalog__content{
+        top: -25px;
+    }
+}
+.catalog__item-6{
+    margin-top: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.carusel__content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+.carusel__btn-box{
+    margin-bottom: 0;
+        
+}
+.carusel{
+    &__title{
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+.box:nth-child(even){
+    flex-direction: column;
+}
+
+
+.partners__wrap{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+}
+@media (max-width: 1024px){
+ 
+ 
+ .slider-top{
+  &__title{
+   text-align: center;
+   left: 50%;
+   top: 30%;
+   transform: translate(-50%,-50%);
+  }
+  &__link{
+   right: 5%;
+   bottom: 10%;
+   
+  }
+  &__text{
+   left: 10%;
+   bottom: 15%;
+  }
+  &__img{
+   height: 65vh;
+  }
+ }
+
+ 
+ 
+ .about__grid{
+     display: flex;
+     flex-direction: column;
+ }
+ .review__list{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+ }
+ .about__list{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .contacts__wrap{
+     display: flex;
+     flex-direction: column-reverse;
+ }
+ .contacts__list{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 870px){
+.carusel{
+    &__title{
+        font-size: 18px;
+    }
+    &__price-new{
+        font-size: 20px;
+    }
+    &__btn{
+        padding: 6px 16px;
+        &-box{
+            min-width: 280px
+        }
+    }
+
+    
+    
+}
+
+.footer__nav{
+    width: 220px;
+}
+.footer__content{
+    flex-wrap: wrap;
+}
+.sale__inner{
+    // grid-template-columns: repeat(1,1fr);
+    // gap: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sale__list{
+    opacity: 1;
+}
+}
+@media (max-width: 768px){
+    .catalog__subtitle{
+        font-size: 20px;
+    }
+    .catalog__item-3{
+    
+      .catalog__content{
+          top: 0%;
+      }
+    }
+
+.popular{
+    &__text{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    &__item__header{
+        justify-content: center;
+    }
+    }
+    
+}
+
+@media (max-width: 720px){
+ .slider-top{
+  &__title{
+   top: 20%;
+   font-size: 26px;
+  }
+  &__link{
+   right: 50%;
+   transform: translate(50%,0);
+  }
+  &__text{
+   left: 50%;
+   bottom: 40%;
+   transform: translate(-50%,50%);
+   text-align: center;
+  }
+ }
+ .review__list{
+     display: flex;
+     flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 640px){
+ 
+ .slider-top{
+  &__link{
+   padding: 8px 26px;
+    bottom: 15%;
+   }
+   &__text{
+    bottom: 50%;
+   }
+   &__title{
+    top: 20%;
+   }
+  &__img{
+   object-fit: none;
+  }
+ }
+ .main-slider{
+  .swiper-button-next,
+  .swiper-button-prev{
+   display: none;
+  }
+ }
+ .slider-top{
+  &__title{
+   width: 310px;
+  }
+  &__text{
+   
+   width: 310px;
+  }
+ }
+ 
+ .sale-swiper{
+     .swiper-button-next,
+     .swiper-button-prev{
+         display: none;
+     }
+ }
+
+.popular{
+    &__btn{
+        margin: 0 auto;
+    }
+    &__item{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding: 16px 0;
+        &__header{
+            align-items: center;
+        }
+        &__title{
+            margin: 24px 0 ;
+        }
+     }
+     &__img{
+         margin: 0 !important; 
+        
+
+     }
+    }
+
+.footer__bot{
+    flex-direction: column-reverse;
+}
+.footer__accept{
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.footer__accept-text{
+    margin-bottom: 8px;
+}
+}
+@media (max-width: 580px){
+     .catalog__wrap{
+     display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+ }
+ .catalog__item {
+     margin: 0 auto;
+ }
+ .catalog__item-8{
+     padding: 40px;
+     .catalog__content{
+         max-width: 210px;
+         left: 50px;
+         top: -5%;
+     }
+ }
+ .catalog__item-7,
+ .catalog__item-6,
+ .catalog__item-4{
+    padding: 30px;
+ }
+ .catalog__item-2{
+     padding-top: 50px;
+     .catalog__content{
+         top: 0;
+     }
+ }
+ .catalog__item-3{
+     .catalog__content{
+         left: 0;
+     }
+ }
+ 
+ .main__title,
+ .sale__title{
+     padding-top: 24px;
+     margin-bottom: 32px;
+     font-size: 26px;
+    }
+    .catalog__title{margin-bottom: 90px;}
+ .sale__item__title{
+     font-size: 22px;
+     margin-bottom: 16px;
+ }
+ .carusel{
+    //  &__inner{
+    //      margin-bottom: 24px;
+    //  }
+   &__img{
+       margin-bottom: 8px;
+   }
+     &__content{
+         flex-direction: column;
+         padding: 0;
+     }
+     &__title{
+         margin-bottom: 16px;
+     }
+     
+ }
+ .box{
+     margin: 0;
+     margin-bottom: 16px;
+ }
+ .sale__item{
+     padding: 32px 0;
+ }
+ .sale__list{
+     flex-wrap: wrap;
+     justify-content: space-around;
+     li{
+        margin: 12px 0;
+     }
+     
+}
+.sale-slider{
+    margin-bottom: 32px;
+}
+.review__list{
+    flex-wrap: wrap;
+}
+.about__uslugi{
+    font-size: 18px;
+}
+.about__text{
+    color: #fff;
+}
+.about__title,
+.about__img,
+.about__uslugi{
+    display: none;
+}
+.about__yandex{
+    text-align: center;
+}
+.about__review svg{
+margin-right: 0;
+}
+.feedback__btn{
+    text-align: center;
+}
+.feedback__text{
+    text-align: center;
+    font-size: 16px;
+}
+}
+   

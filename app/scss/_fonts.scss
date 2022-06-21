@@ -1,0 +1,28 @@
+@font-face{
+ font-family: 'STIXTwoText-Italic';
+ font-style: normal;
+ src: local('STIXTwoText-Italic'),
+         url('../fonts/STIXTwoText-Italic-VariableFont_wght.woff2') format('woff2'),
+         url('../fonts/STIXTwoText-Italic-VariableFont_wght.woff') format('woff');      
+ font-display: swap;
+}
+
+
+
+@font-face{
+ font-family: 'Exo2-Italic';
+ font-style: italic;
+ src: local('Exo2-Italic'),
+         url('../fonts/Exo2-Italic-VariableFont_wght.woff2') format('woff2'),
+         url('../fonts/Exo2-Italic-VariableFont_wght.woff') format('woff');      
+ font-display: swap;
+}
+
+@font-face{
+        font-family: 'Exo2';
+        font-style: normal;
+        src: local('Exo2'),
+                url('../fonts/Exo2-VariableFont_wght.woff2') format('woff2'),
+                url('../fonts/Exo2-VariableFont_wght.woff') format('woff');      
+        font-display: swap;
+       }

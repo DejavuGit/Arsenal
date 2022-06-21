@@ -1,0 +1,51 @@
+
+$green:#628364;
+$red:#572828;
+$kari:#47200c;
+$bg:#e6e7f8;
+$yogurt:#6981F0;
+$blue:#254269;
+$blue-l:#506497;
+$laz:#85F8FF;
+$gray-a:#adadad;
+$gray-l:#DAD9D5;
+$yellow:#C09100;
+$puple:#6600c0;
+
+$black:#292929;
+
+
+
+// #c17cff
+// 3px solid #ac60fa
+
+
+
+%tt6{
+    font-family: 'STIXTwoText-Italic', sans-serif;
+    font-weight: 600;
+}
+
+%tt4{
+    font-family: 'STIXTwoText-Italic', sans-serif;
+    font-weight: 400;
+}
+
+%exo5{
+    font-family: 'Exo2', sans-serif;
+    font-weight: 500;
+}
+
+%exo7{
+    font-family: 'Exo2', sans-serif;
+    font-weight: 700;
+}
+
+
+
+@function max($numbers...){
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...){
+    @return m#{i}n(#{$numbers});
+}
