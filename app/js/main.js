@@ -2,6 +2,21 @@
 
 $(function () {
 
+
+
+  const menuList = document.querySelector('.nav__list').cloneNode(1);
+  const nav = document.querySelector('.menu-nav');
+
+
+document.querySelectorAll('.menu__btn').forEach(function(listitem){
+  listitem.addEventListener('click', function(){
+   this.classList.toggle('menu__btn--active');
+      nav.appendChild(menuList);
+  });
+});
+
+
+
     const offset = 100;
   const scrollUp = document.querySelector('.scroll-up');
   const scrollUpSvgPath = document.querySelector('.scroll-up__svg-path');
