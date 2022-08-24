@@ -1,7 +1,10 @@
 @import "vars";
 @import "fonts";
 @import "reset";
-@import "libs";
+@import "swiperBundle";
+@import "swiperMin";
+@import "swiperNavigation";
+@import "swiperPagination";
 @import "global";
 
 .header-container {
